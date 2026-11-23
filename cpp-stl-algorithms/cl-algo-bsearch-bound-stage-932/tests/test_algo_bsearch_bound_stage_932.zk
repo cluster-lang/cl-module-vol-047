@@ -1,0 +1,10 @@
+// cl-algo-bsearch-bound-stage-932: Test Suite
+import "../asb_932.zk"
+
+fn test_run():
+    res := lower_bound_mid_932(10, 30)
+    if res != 20 + 2: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-bsearch-bound-stage-932!")

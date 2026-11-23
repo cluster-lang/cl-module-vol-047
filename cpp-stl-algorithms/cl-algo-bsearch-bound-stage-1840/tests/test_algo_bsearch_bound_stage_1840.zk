@@ -1,0 +1,10 @@
+// cl-algo-bsearch-bound-stage-1840: Test Suite
+import "../asb_1840.zk"
+
+fn test_run():
+    res := lower_bound_mid_1840(10, 30)
+    if res != 20 + 0: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-bsearch-bound-stage-1840!")

@@ -1,0 +1,10 @@
+// cl-algo-bsearch-bound-stage-678: Test Suite
+import "../asb_678.zk"
+
+fn test_run():
+    res := lower_bound_mid_678(10, 30)
+    if res != 20 + 3: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-bsearch-bound-stage-678!")
